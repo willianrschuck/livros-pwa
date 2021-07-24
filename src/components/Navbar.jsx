@@ -18,7 +18,7 @@ const Navbar = () => (
                             Manutenções
                         </a>
                         <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><NavLink to="/livros" className="dropdown-item" activeClassName="active">Livros</NavLink></li>
+                            <li><a href="/livros" className="dropdown-item" activeClassName="active" >Livros</a></li>
                         </ul>
                     </li>
                 </ul>
